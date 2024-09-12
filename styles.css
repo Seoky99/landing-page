@@ -59,8 +59,63 @@ body {
 .text-container button {
     background-color: #3882F6;
     color: #E5E7EB;
-    border-radius: 3px;
-   
+    border-radius: 3px;   
     padding: 5px; 
 }
+
+.info-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 50px;
+}
+
+.info-container h3 {
+    color: #1F2937;
+    font-weight: 900; 
+    font-size: 36px; 
+    margin: 10px; 
+}
+
+.card-container {
+    display: flex; 
+    gap: 30px; 
+}
+
+.card h6 {
+    font-size: 18px; 
+    margin: 0;
+    width: 150px;
+    text-align: center; 
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex; 
+    justify-content: center; 
+    padding: 50px; 
+}
+
+.quote-text-container {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.quote-container h3 {
+    max-width: 700px; 
+    margin: 0;
+    padding: 0;
+    font-style: italic; 
+    font-weight: lighter; 
+    font-size: 36px; 
+}
+
+.quote-container h5 {
+   align-self: flex-end; 
+   margin: 0;
+}
+
+
+
 
